@@ -1,0 +1,5 @@
+{
+    "model-name": "gemini-flash-3.5",
+    "max_tokens": 200,
+    "api_url": "https:helloworld"
+}
