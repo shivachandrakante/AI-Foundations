@@ -1,5 +1,6 @@
 import os
 import json
+from dataclasses import dataclass, asdict
 
 try:
     with open("ssession-2/agent-config.json","r") as file:
@@ -11,3 +12,4 @@ try:
         print(type(json_type))
 except Exception as e:
     print(f"Error messge {e}")
+
